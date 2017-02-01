@@ -31,3 +31,25 @@
     - CNN
     - RNN
     - Bidirectional Neural networks
+
+## Installation
+`python 3.5.1` with pyenv, virtualenv, autoenv
+(https://github.com/yyuu/pyenv-virtualenv)
+(https://dobest.io/how-to-set-python-dev-env/)
+
+`$ pyenv activate learntf`
+
+### Install TensorFlow
+Mac OS X, CPU only, Python 3.4 or 3.5:
+`(learntf)$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.1-py3-none-any.whl
+`
+`(learntf)$ pip install --upgrade $TF_BINARY_URL`
+
+### Tools for Data Analysis
+(https://jkeun.github.io/post/data-analysis-env-setting/)
+`$ pip install jupyter`
+`$ pip install pandas`
+`$ pip install sklearn`
+`$ pip install matplotlib`
+`$ pip install seaborn`
+`$ pip install --upgrade --no-deps statsmodels`
